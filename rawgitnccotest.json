@@ -1,15 +1,4 @@
-[
-  { 
-"action": "talk", 
-"voiceName": "Jennifer", 
-"text": "Connecting you. Please wait."
-  },
-  
-  { 
-"action": "connect", 
-"endpoint": [{ 
-"type": "phone", 
-"number": "44842660159"}], 
-"from": "447520619335"
-  }
-]
+[{
+   "action": "talk",
+   "text": "Hello World, The quick brown fox jumped over the lazy dog"
+ }]
