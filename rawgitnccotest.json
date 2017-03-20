@@ -1,13 +1,6 @@
 
  [
   { 
-"action": "talk", 
-"voiceName": "Jennifer", 
-"text": "Connecting you. Please wait."
-  },
-
-  
-  { 
 "action": "connect", 
 "endpoint": [{ 
 "type": "phone", 
