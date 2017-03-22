@@ -1,5 +1,4 @@
 [
-
 {
 
 "action": "talk",
@@ -10,18 +9,5 @@
 
 "voiceName": "Ewa"
 
-},
-
-{
-
-"action": "talk",
-
-"text": "I have moved on to the next action",
-
-"bargeIn": false,
-
-"voiceName": "Jennifer"
-
 }
-
 ]
