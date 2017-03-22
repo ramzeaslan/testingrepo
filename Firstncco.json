@@ -3,7 +3,7 @@
 {
 "action": "talk",
 "text": "Super long text that loops all the time",
-"bargeIn": "donkey",
+"bargeIn": "false",
 "loop": 0
 },
 
