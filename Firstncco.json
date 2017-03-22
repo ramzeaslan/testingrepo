@@ -11,7 +11,7 @@
 {
 
   "action": "talk",
-  "text": "testing 1 2 3"
+  "text": "testing 1 2 3",
   "bargeIn": true,
   "voiceName": "Jennifer"
 
