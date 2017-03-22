@@ -6,7 +6,7 @@
 
 "text": "Lechos\u0142awie! Witam Ci\u0119 w testowym systemie do zakupu bilet\u00f3w K-Z-K Gop. Je\u015bli chcesz kupi\u0107 bilet auto b\u00f3sowy naci\u015bnij 1, je\u015bli chcesz kupi\u0107 bilet tramwajowy naci\u015bnij 2. Je\u015bli chcesz poda\u0107 od razu parametry biletu - naci\u015bnij gwiazdk\u0119. ",
 
-"bargeIn": "true",
+"bargeIn": true,
 
 "voiceName": "Ewa"
 
@@ -14,9 +14,13 @@
 
 {
 
-"action": "input",
+"action": "talk",
 
-"eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"]
+"text": "I have moved on to the next action"] ",
+
+"bargeIn": false,
+
+"voiceName": "Jennifer"
 
 }
 
