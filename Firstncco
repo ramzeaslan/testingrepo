@@ -16,4 +16,4 @@
 
 "action": "input",
 
-"eventUrl": ["//raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"]
+"eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"]
