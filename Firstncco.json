@@ -1,20 +1,20 @@
 [
 
-{
-  "action": "talk",
-  "text": "Lechos\u0142awie! Witam Ci\u0119 w testowym systemie do zakupu bilet\u00f3w K-Z-K Gop.",
-  "bargeIn": true,
-  "voiceName": "Ewa"
+	{
+		"action": "talk",
+		"text": "Lechos\u0142awie! Witam Ci\u0119 w testowym systemie do zakupu bilet\u00f3w K-Z-K Gop.",
+		"bargeIn": false,
+		"voiceName": "Ewa"
 
-},
+	},
 
-{
+	{
 
-  "action": "talk",
-  "text": "testing 1 2 3",
-  "bargeIn": true,
-  "voiceName": "Jennifer"
+		"action": "talk",
+		"text": "testing 1 2 3",
+		"bargeIn": false,
+		"voiceName": "Jennifer"
 
-}
+	}
 
 ]
