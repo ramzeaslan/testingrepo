@@ -1,16 +1,39 @@
-[
-
-{
-"action": "talk",
-"text": "Super long text that loops all the time",
-"bargeIn": "true",
-"loop": 0
-},
-
-{
-"action": "input",
-"eventUrl": ["https://gist.githubusercontent.com/nikola-shekerev-nexmo/c2596de2caff71e53eec982fc5d1e918/raw/66f545b0feab048725eb839f398919b6c3e7f3f0/correct_3.json"],
-"eventUrlMethod": "GET"
-}
-
-]
+if (inbound_message['dtmf'] == '1')
+    ncco = [
+        {
+          "action": "talk",
+          "text": "Thank you, I'll forward you to the maybe department",
+          "voiceName": "Amy"
+        },
+        {
+          "action": "connect",
+          "eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"],
+          "from": "441632960960",
+          "endpoint": [
+            {
+              "type": "phone",
+              "number": "441632960961"
+            }
+          ]
+        }
+      ]
+  elsif (inbound_message['dtmf'] == '2')
+    ncco = [
+        {
+          "action": "talk",
+          "text": "Thank you, I'll forward you to the not sure department",
+          "voiceName": "Amy"
+        },
+        {
+          "action": "connect",
+          "eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"],
+          "from": "441632960960",
+          "endpoint": [
+            {
+              "type": "phone",
+              "number": "441632960962"
+            }
+          ]
+        }
+      ]
+  end
