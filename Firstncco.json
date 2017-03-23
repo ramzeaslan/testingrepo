@@ -1,39 +1,13 @@
-if (inbound_message['dtmf'] == '1')
-    ncco = [
-        {
-          "action": "talk",
-          "text": "Thank you, I'll forward you to the maybe department",
-          "voiceName": "Amy"
-        },
-        {
-          "action": "connect",
-          "eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"],
-          "from": "441632960960",
-          "endpoint": [
-            {
-              "type": "phone",
-              "number": "441632960961"
-            }
-          ]
-        }
-      ]
-  elsif (inbound_message['dtmf'] == '2')
-    ncco = [
-        {
-          "action": "talk",
-          "text": "Thank you, I'll forward you to the not sure department",
-          "voiceName": "Amy"
-        },
-        {
-          "action": "connect",
-          "eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/rawgitnccotest.json"],
-          "from": "441632960960",
-          "endpoint": [
-            {
-              "type": "phone",
-              "number": "441632960962"
-            }
-          ]
-        }
-      ]
-  end
+{
+"action": "talk",
+"text": "Super long text that loops all the time",
+"bargeIn": "true",
+"loop": 0
+},
+
+{
+"action": "input",
+"eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/tts1"]
+}
+
+]
