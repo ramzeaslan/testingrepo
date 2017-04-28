@@ -2,7 +2,7 @@
    {  
       action:"connect",
       eventUrl:[  
-         "hhttps://callbacks.dev.nexmoinc.net/svc/callbacks_noauth/callback_json?"
+         "https://callbacks.dev.nexmoinc.net/svc/callbacks_noauth/callback_json?"
       ],
       from:"441234818238",
       limit:60,
