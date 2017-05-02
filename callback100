@@ -1,7 +1,7 @@
 [{
 	"action": "connect",
 	"eventUrl": [
-		"https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/callback100?q=3333"
+		"https://callbacks.dev.nexmoinc.net/svc/callbacks_noauth/callback_json?unique_id=1493737846.58"
 	],
 	"from": "441234818238",
 	"limit": 60,
