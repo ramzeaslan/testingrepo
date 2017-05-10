@@ -2,8 +2,8 @@
 	"action": "connect",
 	"eventType": "synchronous",
 	"eventUrl": ["http://requestb.in/zx75z0zx"],
-	"from": "447520619335",
-	"timeout": "10",
+	"from": "447521332330",
+	"timeout": "50",
 	"machineDetection": "continue",
 	"endpoint": [{
 		"type": "phone",
