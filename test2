@@ -3,6 +3,7 @@
 	"eventType": "synchronous",
 	"eventUrl": ["http://requestb.in/zx75z0zx"],
 	"from": "447521332330",
+	"machineDetection": "continue",
 	"timeout": "50",
 	"endpoint": [{
 		"type": "phone",
