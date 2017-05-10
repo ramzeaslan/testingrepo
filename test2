@@ -4,7 +4,7 @@
 	"eventUrl": ["http://requestb.in/zx75z0zx"],
 	"from": "447520619335",
 	"timeout": "10",
-	"machineDetection": "continue",
+	"machineDetection": "hangup",
 	"endpoint": [{
 		"type": "phone",
 		"number": "07842660159"
