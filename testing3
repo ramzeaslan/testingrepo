@@ -1,18 +1,12 @@
-[
-  {
-    "action": "connect",
-    "eventType": "synchronous",
-    "eventUrl": [
-      "https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/tts1"
-    ],
-    "from": "447521332330",
-    "timeout": "10",
-    "machineDetection": "hangup",
-    "endpoint": [
-      {
-        "type": "phone",
-        "number": "447521332330"
-      }
-    ]
-  }
-]
+[{
+	"action": "connect",
+	"eventType": "synchronous",
+	"eventUrl": ["http://requestb.in/zx75z0zx"],
+	"from": "447520619335",
+	"timeout": "10",
+	"machineDetection": "continue",
+	"endpoint": [{
+		"type": "phone",
+		"number": "07842660159"
+	}]
+}]
