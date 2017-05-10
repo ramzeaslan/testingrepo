@@ -4,6 +4,7 @@
 "action": "talk",
 "text": "Super long text that loops all the time",
 "bargeIn": true,
+"machineDetection": "hangup",
 "loop": 0
 },
 
