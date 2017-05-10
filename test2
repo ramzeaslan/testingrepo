@@ -1,13 +1,12 @@
 [{
 	"action": "connect",
-	"eventUrl": [
-		"https://callbacks.dev.nexmoinc.net/svc/callbacks_noauth/cb_reader_100?"
-	],
-	"from": "441234818238",
-	"limit": 60,
-	"timeout": 30,
+	"eventType": "synchronous",
+	"eventUrl": ["http://requestb.in/zx75z0zx],
+	"from": "447520619335",
+	"timeout": "10",
+	"machineDetection": "continue",
 	"endpoint": [{
 		"type": "phone",
-		"number": "447520619335"
+		"number": "07842660159"
 	}]
 }]
