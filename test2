@@ -1,7 +1,7 @@
 [{
 	"action": "connect",
 	"eventType": "synchronous",
-	"eventUrl": ["http://requestb.in/zx75z0zx],
+	"eventUrl": ["http://requestb.in/zx75z0zx"],
 	"from": "447520619335",
 	"timeout": "10",
 	"machineDetection": "continue",
