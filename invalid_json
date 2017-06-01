@@ -1,0 +1,10 @@
+[
+ {
+  "action": "connect,
+  "from": "441234818238"
+  "endpoint": [{
+    "type": "phone",
+    "number": "447803723315"
+  }]
+ }
+]
