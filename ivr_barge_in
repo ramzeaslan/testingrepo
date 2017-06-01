@@ -1,0 +1,14 @@
+[
+ {
+  "action":"talk",
+  "text":"this is a simple ivr scenario for barge in",
+  "loop": 0,
+  "bargeIn": true
+ },
+ {
+  "action": "input",
+  "maxDigits": 1,
+  "eventUrl": ["https://static.dev.nexmoinc.net/svc/ncco/ncco/auto_ncco_barge_in.php?action_1=talk&barge_in_1=true&loop_1=0&action_3=input"],
+  "eventUrlMethod":"GET"
+ }
+]
