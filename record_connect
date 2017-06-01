@@ -1,0 +1,18 @@
+[{
+  "record": {
+    "callback_url": "https://qa.internal/svc/callbacks_noauth/callback.py?from=auto_vapi",
+    "callback_method": "GET"
+  }
+},
+{
+  "connect": {
+    "callback_url": "https://qa.internal/svc/callbacks_noauth/callback.py?from=auto_vapi",
+    "event_callback_url": "https://qa.internal/svc/callbacks_noauth/callback.py?from=auto_vapi",
+    "from": "441234818238",
+    "endpoint": [{
+      "e.164": {
+        "number": "447803723315"
+      }
+    }]
+  }
+}]
