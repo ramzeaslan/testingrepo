@@ -1,0 +1,14 @@
+[
+  {
+    "action": "input",
+    "timeOut": 1,
+    "maxDigits": 20,
+    "eventUrl": ["https://qa.internal/svc/callbacks_noauth/callback_json?qa_type=dtmf"]
+  },
+  {
+    "action": "input",
+    "timeOut": 3,
+    "maxDigits": 20,
+    "eventUrl": ["https://qa.internal/svc/callbacks_noauth/callback_json?qa_type=dtmf"]
+  }
+]
