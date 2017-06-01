@@ -1,0 +1,10 @@
+[
+ {
+  "action": "connect",
+  "eventUrl": "this-is-not-an-array",
+  "endpoint": [{
+    "type": "phone",
+    "number": "12025550000"
+  }]
+ }
+]
