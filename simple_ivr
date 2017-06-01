@@ -1,0 +1,19 @@
+[
+ {
+  "action": "record",
+  "format": "wav"
+ },
+ {
+  "action": "talk",
+  "text": "please select 1 2 or 3"
+ },
+ {
+  "action": "input",
+  "maxDigits": 1
+ },
+ {
+  "action": "talk",
+  "text": "please wait while we route your call",
+  "loop": 0
+ }
+]
