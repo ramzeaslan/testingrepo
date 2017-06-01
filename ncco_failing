@@ -1,0 +1,18 @@
+[
+  {
+    "action": "connect",
+    "from": "vapi_test",
+    "eventUrl": ["https://qa.internal/svc/callbacks_noauth/callback_json?qa_unique_id=test_vapi_e2e_dtmf_on_answer_ncco"],
+    "endpoint": [{
+      "type": "phone",
+      "number": "441174960006",
+      "dtmfAnswer": "1234"
+    }]
+  },
+  {
+    "action": "input",
+    "timeOut": 10,
+    "maxDigits": 4,
+    "eventUrl": ["https://qa.internal/svc/callbacks_noauth/callback_json?qa_type=dtmf&qa_unique_id=test_vapi_e2e_dtmf_on_answer_ncco"]
+  }
+]
