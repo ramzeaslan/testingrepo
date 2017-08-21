@@ -1,0 +1,17 @@
+[{
+    "action": "connect",
+    "eventType": "synchronous",
+    "eventUrl": ["https://dialer.chime.me/nexmo/callback/event"],
+    "from": "16503889657",
+    "endpoint": [{
+        "type": "phone",
+        "number": "447521332330"
+    }]
+}, {
+    "action": "record",
+    "eventUrl": ["https://dialer.chime.me/nexmo/callback/event/recording"]
+}, {
+    "action": "stream",
+    "streamUrl": ["https://cdn.chime.me/doc/fs01/crm-lead/20170726/2/matyeQGn.mp3"],
+    "loop": 1
+}]
