@@ -2,7 +2,7 @@
  {
   "action":"talk",
   "text":"please enter 1 for sales, or 2 for marketing"
-  "timeout": 45
+  "timeout": 15
 
  },
  {
