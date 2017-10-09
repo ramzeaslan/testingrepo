@@ -2,11 +2,12 @@
  {
   "action":"talk",
   "text":"please enter 1 for sales, or 2 for marketing"
+  "timeout": 45
+
  },
  {
   "action": "stream",
-  "streamUrl": ["https://static.nexmo.com/987439e71a067b4f48693274a442fd0c/audio_files/wav/sample-8000_bitrate-16_channels-1_duration-225s.wav"],
-  "timeout": 45
+  "streamUrl": ["https://static.nexmo.com/987439e71a067b4f48693274a442fd0c/audio_files/wav/sample-8000_bitrate-16_channels-1_duration-225s.wav"]
  },
  {
   "action": "input",
