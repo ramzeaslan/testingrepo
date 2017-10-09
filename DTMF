@@ -11,7 +11,7 @@
   "action": "input",
   "maxDigits": 1,
   "eventUrl": ["http://178.62.73.4/nexmo/vapi/process_dtmf.php"],
-  "eventUrlMethod":"GET"
+  "eventUrlMethod":"GET",
   "timeOut":"3"
  }
 ]
