@@ -6,8 +6,8 @@
  {
   "action": "stream",
   "streamUrl": ["https://static.nexmo.com/987439e71a067b4f48693274a442fd0c/audio_files/wav/sample-8000_bitrate-16_channels-1_duration-225s.wav"],
-  "bargeIn": true
-  "timeout": "45",
+  "bargeIn": true,
+  "timeout": "45"
  },
  {
   "action": "input",
