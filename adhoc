@@ -1,0 +1,15 @@
+[{
+	"action": "connect",
+	"eventUrl": ["https://requestb.in/1k0fb1r1"],
+	"timeout": "12",
+	"from": "123123",
+	"endpoint": [{
+		"type": "phone",
+		"number": "44752"
+	}]
+}, {
+	"action": "record",
+	"eventUrl": ["https://requestb.in/1k0fb1r1"],
+	"beepStart": "true",
+	"endOnSilence": "10"
+}]
