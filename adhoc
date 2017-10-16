@@ -1,7 +1,7 @@
 [{
 	"action": "connect",
 	"eventUrl": ["https://requestb.in/1k0fb1r1"],
-	"timeout": "12",
+	"timeout": "15",
 	"from": "123123",
 	"endpoint": [{
 		"type": "phone",
