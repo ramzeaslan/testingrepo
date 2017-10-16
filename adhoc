@@ -10,5 +10,4 @@
 }, {
 	"action": "record",
 	"eventUrl": ["https://requestb.in/1k0fb1r1"],
-	"endOnSilence": "10"
 }]
