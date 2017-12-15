@@ -1,0 +1,19 @@
+[
+  {
+      "action": "talk",
+      "text": "Attention Online Intelligence, this is an automated call. If you think Rudi is awesome, press 1, otherwise press 2 and prepare for your disciplinary hearing.",
+      "voiceName": "Emma",
+                  "level": 1
+  },
+  {
+    "action": "input",
+    "maxDigits": 1,
+    "timeOut": 10
+  },
+  {
+      "action": "talk",
+      "text": "Thank you. Goodbye",
+      "voiceName": "Emma",
+                  "level": 1
+  }
+]
