@@ -1,13 +1,27 @@
-{
-"action": "talk",
-"text": "Super long text that loops all the time",
-"bargeIn": "true",
-"loop": 0
-},
-
-{
-"action": "input",
-"eventUrl": ["https://raw.githubusercontent.com/ramzeaslan/testingrepo/master/tts1"]
-}
-
+[{
+		"action": "talk",
+		"text": "This is a call from Staatoil",
+		"voiceName": "Kimberly",
+		"bargeIn": false
+	},
+	{
+		"action": "talk",
+		"text": "This is an emergency announcement from Statoil Refining Denmark. This is the weekly test. This is the weekly test.",
+		"voiceName": "Kimberly",
+		"bargeIn": false
+	},
+	{
+		"action": "talk",
+		"text": "Please press, 1, if you CAN meet according to plan, press, 2, if you can NOT meet according to plan, press, 3, to hear the message again. If you do not respond, you will automatically, be called again. ",
+		"voiceName": "Kimberly",
+		"bargeIn": true
+	},
+	{
+		"action": "input",
+		"timeOut": 10,
+		"submitOnHash": false,
+		"maxDigits": 1,
+		"eventUrl": ["https://requestb.in/10xiobf1"],
+		"eventMethod": "POST"
+	}
 ]
